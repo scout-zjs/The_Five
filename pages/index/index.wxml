@@ -1,0 +1,14 @@
+<view class="menu2">
+    <view class="menu2_view" wx:for="{{arry}}" wx:for-index="index" wx:key="index">
+        <image src="{{item.src}}" mode="widthFix" class="menu3icon"></image>
+        <view class="menu2_ul">
+        <text style=" margin-bottom: 30rpx;">{{item.text}}</text>
+        <text style="font-weight: bold;">{{item.text_bold}}</text>
+        <text style="color:#B12704;margin-top:-20rpx;margin-bottom:20px" >
+            {{item.Price}}
+        </text>
+        <text style="border:1px solid;width:64rpx;height:37rpx;text-align:center;font-size:21rpx;line-height: 37rpx;">{{item.shop}}</text>
+        <text style="color: #555;font-size:24rpx">{{item.state}}</text>
+        </view>
+    </view>
+</view>

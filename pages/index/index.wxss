@@ -1,0 +1,34 @@
+/* pages/index/index.wxss */
+
+.myImage{
+  width: 98px;
+  height: 98px;
+  display: block;
+  border: 1px solid;
+}
+
+.menu2_view{
+  margin-top: 5rpx;
+  width: 750rpx;
+  border-top: 1px solid;
+  display: flex;
+  padding: 22rpx;
+  flex-direction: row;
+}
+
+.menu2 .menu2_view .menu3icon{
+  width: 215rpx;
+  height: 306rpx;
+  display: inline-block;
+
+  
+}
+.menu2_ul{
+  font-size: 28rpx;
+  width: 515rpx;
+  flex:2;
+  padding:0rpx 23rpx;
+  display: flex;
+  flex-direction:column ;
+  
+}
